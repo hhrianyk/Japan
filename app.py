@@ -37,4 +37,5 @@ app.add_url_rule('/food.html', 'food', food)
 app.add_url_rule('/history.html', 'history', history)
 app.add_url_rule('/index.html', 'index', index)
 
-app.run()
+port = int(os.environ.get('PORT', 5000))
+app.run(host='0.0.0.0', port=port, debug=False)
