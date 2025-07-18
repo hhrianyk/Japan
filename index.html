@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Culture</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css')}}">
+</head>
+<body>
+    
+    <header id="start">
+        <div>
+           
+        </div>
+        <h1>Ласкаво просимо до японської культури</h1>
+    </header>
+	<a href="#end">end</a>
+    <nav>
+        <ul>
+            <li><a href="#history">History</a></li>
+            <li><a href="#art">Art</a></li>
+            <li><a href="#food">Food</a></li>
+            <li><a href="#traditions">Traditions</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="history">
+            <h2>History</h2>
+			<a href="history.html">
+            <p>Дослідіть багату історію Японії від найдавніших часів до сучасності.</p>
+            <img src="https://guidable.co/wp-content/uploads/2022/03/japanese-history.jpg" alt="Japanese history">
+			</a>
+        </section>
+		        <section id="history">
+            <h2>History</h2>
+			<a href="history.html">
+            <p>Дослідіть багату історію Японії від найдавніших часів до сучасності.</p>
+            <img src="{{ url_for('static', filename='cat.jpg')}}" alt="Japanese history">
+			</a>
+        </section>
+        <section id="art">
+             <a href="art.html">
+                <h2>Art</h2>
+            <p>Відкрийте для себе унікальні та красиві види мистецтва Японії, включаючи каліграфію та живопис</p>
+            <img src="https://stability-images-upload.s3.amazonaws.com/v1_txt2img_9397da60-9430-4300-8255-d3fb4e62757e.png" alt="Japanese art">
+			</a>
+		</section>
+        <section id="food">
+		<a href="food.html">
+            <h2>Food</h2>
+            <p>Experience the delicious and diverse cuisine of Japan, from sushi to ramen.</p>
+            <img src="https://www.tastingtable.com/img/gallery/20-japanese-dishes-you-need-to-try-at-least-once/l-intro-1664219638.jpg" alt="Japanese food">
+			</a>
+		</section>
+        <section id="traditions">
+		 <a href="traditions.html">
+            <h2>Traditions</h2>
+            <p>Learn about the traditional customs and festivals celebrated in Japan.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcb4w9K5lDvKozYDQxOEdW4JanIYnxhqV0Hw&s" alt="Japanese traditions">
+			</a>
+		</section>
+                <section id="traditions">
+		 <a href="traditions.html">
+            <h2>Traditions</h2>
+            <p>Learn about the traditional customs and festivals celebrated in Japan.</p>
+            <img src="https://pohcdn.com/guide/sites/default/files/styles/big_gallery_image/public/text_gallery/Japan-3.jpg" alt="Japanese traditions">
+			</a>
+		</section>
+                <section id="traditions">
+		 <a href="traditions.html">
+            <h2>Traditions</h2>
+            <p>Learn about the traditional customs and festivals celebrated in Japan.</p>
+            <img src="https://pohcdn.com/guide/sites/default/files/styles/big_gallery_image/public/text_gallery/Japan-3.jpg" alt="Japanese traditions">
+			</a>
+		</section>
+                <section id="traditions">
+		 <a href="traditions.html">
+            <h2>Traditions</h2>
+            <p>Learn about the traditional customs and festivals celebrated in Japan.</p>
+            <img src="{{ url_for('static', filename='human.jpg')}}" alt="Japanese traditions">
+			</a>
+		</section>
+        <a href="#start">Start</a>
+    </main>
+    <footer id ="end" >
+        <p>&copy; 2024 Japanese Culture. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
